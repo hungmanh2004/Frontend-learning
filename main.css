@@ -1,0 +1,158 @@
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+@import url('https://fonts.cdnfonts.com/css/new-york-extra-large');
+@import url('https://fonts.cdnfonts.com/css/nokia-cellphone-fc');
+@font-face {
+  font-family: 'Mackay Bold';
+  src: url('./fonts/Rene Bieder - Mackay DEMO Bold.otf');
+}
+@font-face {
+  font-family: 'Harriet Text';
+  src: url('./fonts/HARRIETTEXTREGULAR.OTF');
+}
+@font-face {
+  font-family: 'Basis';
+  src: url('./fonts/BasisGrotesqueArabicPro-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    background-color: #FFD900;
+    padding: 0.7rem;
+    color: black;
+}
+
+.header .version {
+    font-family: 'SF Mono', sans-serif;
+    font-weight: 150;
+    font-size: 1.6rem;
+    margin-left: 7vw;
+    margin-top: 2rem;
+}
+
+.header .read-me {
+    font-family: 'New York Extra Large', sans-serif;
+    font-weight: 900;
+    font-size: 14rem;
+    padding: 1rem;
+    margin-left: 6vw;
+}
+
+.content {
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: 6vw;
+    margin-bottom: 15rem;
+}
+
+.content h2 {
+    font-family: 'New York Extra Large', sans-serif;
+    font-weight: 650;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+@font-face {
+  font-family: SFProText;
+  font-style: normal;
+  font-weight: normal;
+  src: local(SFProText), url('SFProText-Light.ttf') format('ttf');
+  }
+
+.content p {
+    font-family: 'SFProText', sans-serif;
+    font-size: 1.6rem;
+}
+
+.content .part-1 {
+    padding-left: 1.9rem;
+    border-width: 0 0 0 0.4rem;
+    border-style: solid;
+    border-color: black;
+    margin: 0 0 4rem 0.3rem;
+}
+
+.content .part-2 {
+  padding-left: 1.9rem;
+  border-width: 0 0 0 0.4rem;
+  border-style: solid;
+  border-color: black;
+  margin: 0 0 4rem 0.3rem;
+}
+
+.content .part-3 {
+  padding-left: 1.9rem;
+  border-width: 0 0 0 0.4rem;
+  border-style: solid;
+  border-color: black;
+  margin: 0 0 4rem 0.3rem;
+}
+
+
+
+.content .font-title-1 {
+    margin-top: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.content .font-title-2 {
+  margin-top: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-family: 'Mackay Bold';
+}
+
+.content .font-title-3 {
+  margin-top: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-family: 'Harriet Text';
+}
+
+.content .font-title-4 {
+  margin-top: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-family: 'Basis';
+}
+
+.content .font-title-5 {
+  margin-top: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-family: 'Nokia Cellphone FC', sans-serif;
+}
+
+  .content ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .content li {
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+  }
+
+  .content li span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .font-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
